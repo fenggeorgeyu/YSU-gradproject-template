@@ -473,10 +473,6 @@ Remember: all computer code/listings should be in a monowidth font
 (such as Courier) and not in a proportional font (such as Times
 Roman). For instance, you should write =summary()= instead of summary().
 
-
-
-
-
 *About this document:* (the below was typeset in the =verse=
   environment)
 
@@ -485,8 +481,7 @@ Last modified: August 18, 2008
 Author: G. Jay Kerns, Ph.D.
 Typeset with: Org mode 8.0pre in GNU Emacs 24.3.5.1
 Electronic versions in (=.lyx=, =.tex=, =.pdf=) formats can be 
-downloaded from:
-http://www.cc.ysu.edu/~gjkerns/gradresources.php
+downloaded from [[https://github.com/gjkerns/gradproject][GitHub]]
 #+END_VERSE
 
 
