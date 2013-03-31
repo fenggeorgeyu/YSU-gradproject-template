@@ -1,0 +1,2165 @@
+#LyX 1.5.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 276
+\begin_document
+\begin_header
+\textclass article
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 12
+\spacing onehalf
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Standard
+\align center
+
+\size largest
+Project Template for Graduate Students
+\end_layout
+
+\begin_layout Standard
+\align center
+G.
+ Jay Kerns, Summer 2008
+\end_layout
+
+\begin_layout Standard
+\InsetSpace ~
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Standard
+The TITLE page is in the box directly below.
+ Click on it to customize.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+textbf{TITLE OF THE PROJECT (all caps)} 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+vspace{0.25in}
+\end_layout
+
+\begin_layout Standard
+
+by 
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+vspace{0.25in}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+textbf{Your Name Here}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+vspace{1in}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+Submitted in Partial Fulfillment of the Requirements
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+for the Degree of
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+vspace{0.1in}
+\end_layout
+
+\begin_layout Standard
+
+MASTER OF SCIENCE
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+vspace{0.1in}
+\end_layout
+
+\begin_layout Standard
+
+in the
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+Department of Mathematics and Statistics
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+vspace{1in}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+textbf{Graduate Project Committee}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+bigskip
+\end_layout
+
+\begin_layout Standard
+
+Dr.
+\backslash
+ G.
+\backslash
+ J.
+\backslash
+ Kerns (Chair)
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+Department of Mathematics 
+\backslash
+& Statistics
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+bigskip
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+Dr.
+\backslash
+ Second Member
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+Department of Mathematics 
+\backslash
+& Statistics
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+bigskip
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+Dr.
+\backslash
+ Third Member 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+Department of Maybe Another Department
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+vfill
+\end_layout
+
+\begin_layout Standard
+
+YOUNGSTOWN STATE UNIVERSITY
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+August, 2008 
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Standard
+The ABSTRACT page is next.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+textbf{ABSTRACT} 
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+end{center} 
+\backslash
+vspace{0.25in}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+Type the text of your Abstract here.
+  It should be a one page, concise description of your project.
+ It should be self-contained, and a person should be able to read this one
+ page and get a very good idea about the subject and main results of your
+ project.
+ This section should not contain cross-references to any other paper or
+ book.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Standard
+The ACKNOWLEDGMENTS page is optional.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+textbf{ACKNOWLEDGEMENTS} 
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+end{center} 
+\backslash
+vspace{0.25in}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+This page is optional.
+ If desired, you may acknowledge those individuals that played a significant
+ role in your successful completion of the project.
+ If you are going to have this page, then you should make sure to include
+ the YSU Department of Mathematics and Statistics, and of course, your project
+ advisor and committee members.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset LatexCommand tableofcontents
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Standard
+Do not modify; the Table of Contents is generated automatically.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\begin_inset LatexCommand label
+name "sec:Introduction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The goal in this section is to introduce the reader to the subject of your
+ project.
+ This is the place for relevant background information that a person should
+ know in order to put your project in context.
+ Discuss any prior history or work that has been done on this topic.
+ Define any essential terms or concepts from other fields that are used
+ throughout the paper.
+\end_layout
+
+\begin_layout Standard
+Most of your literature review will be mentioned here.
+ Every time that you reference a paper, be sure to add a citation, for instance,
+ Efron 
+\begin_inset LatexCommand citet
+key "efron79"
+
+\end_inset
+
+.
+ In order to cite properly, your References section needs to be current
+ and complete; see the end of this document.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Standard
+This document has been set to 1 inch margins on the top, bottom, and sides.
+ The font size is 12 and the line spacing is 1.5.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Section
+Overview
+\begin_inset LatexCommand label
+name "sec:Overview"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This section gives a 
+\emph on
+bird's eye view
+\emph default
+ of your project, as a whole.
+ You have introduced the reader to all of the necessary background for your
+ project in Section 
+\begin_inset LatexCommand ref
+reference "sec:Introduction"
+
+\end_inset
+
+, so now (s)he is ready to learn, in broad terms, what you did in your project
+ and how all of the pieces fit together.
+ 
+\end_layout
+
+\begin_layout Standard
+It is not appropriate to include many minute details in this section.
+ It is fine to include graphs, but they should only be used in the context
+ of communicating the 
+\bar under
+main ideas
+\bar default
+ of your project.
+ Lengthy tables and lists of variables or 
+\begin_inset Formula $p$
+\end_inset
+
+-values are not appropriate; those should be saved for Section 
+\begin_inset LatexCommand ref
+reference "sec:Analysis"
+
+\end_inset
+
+, Analysis.
+\end_layout
+
+\begin_layout Standard
+It is appropriate to mention the main research questions that you are investigat
+ing with this project, but save the answers and details for Sections 
+\begin_inset LatexCommand ref
+reference "sec:Analysis"
+
+\end_inset
+
+, 
+\begin_inset LatexCommand ref
+reference "sec:Discussion"
+
+\end_inset
+
+, and 
+\begin_inset LatexCommand ref
+reference "sec:Conclusion"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Project Time-line
+\end_layout
+
+\begin_layout Standard
+This is set apart so that you can see what a subsection looks like inside
+ of a section.
+ The list below is typeset with a 
+\emph on
+Description
+\emph default
+ environment.
+ It describes a basic time-line for you while completing your project.
+\end_layout
+
+\begin_layout Description
+Beginning\InsetSpace ~
+of\InsetSpace ~
+semester\InsetSpace ~
+or\InsetSpace ~
+earlier: Schedule meetings with potential advisers
+ to see if they are available to do a project with you.
+ Bring to the meeting ideas of topics/subjects that you would like to study.
+ Prepare a list of the MATH/STAT courses you have had at YSU.
+ Leave the meeting with two or three possibilities of projects for you to
+ investigate.
+ Be prepared to go to the library or Internet to find data related to the
+ topic(s) discussed.
+ 
+\end_layout
+
+\begin_layout Description
+Second\InsetSpace ~
+meeting: Bring example data sets to the meeting, for discussion and
+ selection.
+ Choose a project adviser and project topic.
+ Ask your adviser about potential professors to serve on your project committee,
+ and then approach the candidates to ask them (politely) if they are willing/abl
+e to serve on the committee.
+ Keep searching until you find two professors who accept.
+\end_layout
+
+\begin_layout Description
+Third\InsetSpace ~
+meeting: Bring your class schedule, and set up regular weekly meeting
+ times with your adviser.
+ Notify your adviser of the additional committee members.
+ Schedule a tentative date for the computer lab for your project presentation
+ and defense.
+ This will be 
+\begin_inset Quotes eld
+\end_inset
+
+Presentation Day
+\begin_inset Quotes erd
+\end_inset
+
+, and should be scheduled for at least one week prior to the beginning of
+ Final Exams.
+ After the meeting, speak with the other committee members to revise/confirm
+ the presentation day.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.25in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\SpecialChar \ldots{}
+lots of work here\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.25in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Two\InsetSpace ~
+weeks\InsetSpace ~
+prior: PROJECT REPORT DUE DATE.
+ Give a final, printed copy of the document to each of your committee members.
+ Begin preparation for your presentation by making PowerPoint slides of
+ your project work.
+ Organize your presentation in the same way that this document is organized.
+\end_layout
+
+\begin_layout Description
+One\InsetSpace ~
+week\InsetSpace ~
+prior: Meet with your adviser to discuss your presentation slides.
+ Rehearse your presentation by yourself, with a clock to time the length
+ of the delivery.
+ Send your adviser an email containing the title of the presentation and
+ an abstract, for announcement to the department faculty.
+\end_layout
+
+\begin_layout Description
+One\InsetSpace ~
+day\InsetSpace ~
+prior: Prepare a notice containing the time, place, and title of your
+ presentation.
+ Make copies and post them in the Math office and on the office suite doors.
+ 
+\end_layout
+
+\begin_layout Description
+Presentation\InsetSpace ~
+Day: Good luck! Do a great job!
+\end_layout
+
+\begin_layout Description
+Immediately\InsetSpace ~
+afterward: Make sure that the projector and other equipment are
+ secured and returned to their original location(s).
+ Remove the notices from the doors.
+ Meet with your adviser to discuss revisions to the document which have
+ been suggested by the committee.
+\end_layout
+
+\begin_layout Description
+Three\InsetSpace ~
+days\InsetSpace ~
+afterward: Give your adviser a printed copy of the final, revised
+ draft of the document for the adviser to review.
+ 
+\end_layout
+
+\begin_layout Description
+After_approval: Give a three-ring bound final copy to Sandi, the Mathematics
+ & Statistics Secretary.
+ You may also wish to give your adviser a bound copy.
+\end_layout
+
+\begin_layout Description
+TO\InsetSpace ~
+GRADUATE: 
+\series bold
+Very important!
+\series default
+ If you did not finish your project in one semester, then you recieved a
+ grade of 
+\begin_inset Quotes eld
+\end_inset
+
+In Progress
+\begin_inset Quotes erd
+\end_inset
+
+ (PR) in the semester in which you registered for your project.
+ In order to graduate, this grade must be 
+\emph on
+changed
+\emph default
+ using special paperwork.
+ You need to go to Sandi, the Mathematics & Statistics secretary, and request
+ a 
+\begin_inset Quotes eld
+\end_inset
+
+Change of Grade
+\begin_inset Quotes erd
+\end_inset
+
+ form.
+ She will give you instructions for filling out the form.
+ 
+\series bold
+Submit the completed form
+\series default
+ to your adviser, who will fill in the remaining details.
+ If this form is not completed, you 
+\emph on
+will not graduate
+\emph default
+.
+ It is your responsibility to make sure that all of the procedures are followed
+ in a timely manner.
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Section
+Methodology
+\begin_inset LatexCommand label
+name "sec:Methodology"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The goal in this section is to lay the theoretical foundation of the later
+ sections.
+ You will be doing a lot of computations in Section 
+\begin_inset LatexCommand ref
+reference "sec:Analysis"
+
+\end_inset
+
+, and you will want to include here a discussion of each of the main procedures
+ that you will be using.
+ For example, if you are doing a project with multiple regression analysis,
+ then you should discuss the theory of the regression model in this section,
+ together with the model's assumptions.
+ If your project is a cluster analysis of some data, then you should detail
+ the algorithms/methods that were used and their properties and weaknesses.
+\end_layout
+
+\begin_layout Standard
+If you use certain statistics to perform a hypothesis test or assess the
+ accuracy of a particular procedure, then they should be quoted here (with
+ their respective formulas).
+ Again, discuss their strengths and weaknesses, and make it clear why you
+ chose them.
+ If there are any special probability distributions that you are using,
+ then you should include them here, with formulas, and describe their connection
+ to the topic you are studying.
+\end_layout
+
+\begin_layout Subsection
+Mathematical Typesetting
+\end_layout
+
+\begin_layout Standard
+Given that you are a student in the Department of Mathematics & Statistics,
+ the probability is high that you will want to include mathematical notation
+ and formulas in your report, and they are entered into LyX using a special
+ LaTeX math mode.
+ There are three primary ways to do this.
+ 
+\end_layout
+
+\begin_layout Standard
+The first way is called an 
+\begin_inset Quotes eld
+\end_inset
+
+inline formula
+\begin_inset Quotes erd
+\end_inset
+
+, which means that the formula is included in the text with everything else.
+ An example would be 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ or 
+\begin_inset Formula $\int\sin x\ dx$
+\end_inset
+
+.
+ This way is handy when mentioning variables or short expressions.
+\end_layout
+
+\begin_layout Standard
+The second way is called a 
+\begin_inset Quotes eld
+\end_inset
+
+displayed formula
+\begin_inset Quotes erd
+\end_inset
+
+, which is separated from the rest of the text in its own displayed paragraph.
+ An example would be
+\begin_inset Formula \[
+f(x)=\frac{1}{\sqrt{2\pi}}\mathrm{e^{-x^{2}/2},\quad-\infty<x<\infty},\]
+
+\end_inset
+
+which is useful for longer formulas or equations.
+ 
+\end_layout
+
+\begin_layout Standard
+The last way is a 
+\begin_inset Quotes eld
+\end_inset
+
+numbered formula
+\begin_inset Quotes erd
+\end_inset
+
+, which displays the formula labeled with a number, for instance,
+\begin_inset Formula \begin{equation}
+\mathrm{e}^{i\pi}-1=0.\end{equation}
+
+\end_inset
+
+There can be many of these in a the document, and the equation numbers will
+ be generated automatically by LyX.
+ 
+\end_layout
+
+\begin_layout Standard
+Please note that there are many, many, many things that can be done with
+ LaTeX and mathematics.
+ To get an idea, take a look at 
+\begin_inset Quotes eld
+\end_inset
+
+LyX's detailed Math Manual
+\begin_inset Quotes erd
+\end_inset
+
+, which can be viewed by clicking 
+\emph on
+Help
+\emph default
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\emph on
+ Math
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In particular, all variables, functions, and expressions in the document
+ should be written in math mode.
+ It is not acceptable to write X or Y when discussing variables in your
+ report\SpecialChar \ldots{}
+ they should instead be 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ so that the reader can easily distinguish between mathematics and text.
+\end_layout
+
+\begin_layout Subsection
+Copying Material from the Internet (or elsewhere)
+\end_layout
+
+\begin_layout Standard
+This document is yours, and the reader will assume that all of the words
+ in it were written by you unless something special indicates otherwise.
+ Take, for instance, this quote from Fox 
+\begin_inset LatexCommand citet
+key "fox02"
+
+\end_inset
+
+ which discusses the bootstrapping technique:
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+Bootstrapping
+\emph default
+ is a general approach to statistical inference based on building a sampling
+ distribution for a statistic by resampling from the data at hand.
+ The term ‘bootstrapping,’ due to Efron 
+\begin_inset LatexCommand citet
+key "efron79"
+
+\end_inset
+
+, is an allusion to the expression `pulling oneself up by one’s bootstraps'
+ – in this case, using the sample data as a population from which repeated
+ samples are drawn.
+ At first blush, the approach seems circular, but has been shown to be sound.
+\end_layout
+
+\begin_layout Standard
+Notice that the above 
+\emph on
+quotation environment
+\emph default
+ makes it immediately obvious to the reader that the words in the separate
+ paragraph were written by John Fox, and not by me.
+ 
+\series bold
+Any passages that are copy/pasted into this document must be set apart in
+ a quotation environment, just like the one above
+\series default
+.
+ If there is 
+\emph on
+even a sentence
+\emph default
+ in the document that you have copied from the Internet (or elsewhere, such
+ as a book or journal) which is not set apart and referenced, then you have
+ committed 
+\emph on
+plagiarism
+\emph default
+, a very serious offense at this level of your academic career.
+ Be careful about quoting external material.
+\end_layout
+
+\begin_layout Standard
+Rather than copying someone else's writing into your project, it is better
+ to read the material and write another version in your own words.
+ Try to paraphrase the material into a shorter version that makes sense
+ to you, or alternatively go in the other direction by adding explanations
+ that the original author skipped.
+ The goal is to make the passage your own.
+\end_layout
+
+\begin_layout Standard
+There are exceptions: mathematical definitions, being one.
+ These are quoted everywhere and are contained in many texts and references.
+ It is not necessary to quote/reference a definition, unless the specific
+ definition warrants otherwise.
+ Ask your adviser concerning any cases about which you are unsure.
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Section
+Analysis
+\begin_inset LatexCommand label
+name "sec:Analysis"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This section is the 
+\begin_inset Quotes eld
+\end_inset
+
+meat
+\begin_inset Quotes erd
+\end_inset
+
+ of the project.
+ It is here that you present your computations, tables, scatterplots, diagnostic
+ graphs, and 
+\begin_inset Formula $p$
+\end_inset
+
+-values.
+ You will spend the majority of the time working on the results to put into
+ this section.
+ It is appropriate to include
+\end_layout
+
+\begin_layout Enumerate
+The source of the data set, including its size, the number of variables,
+ the types of the variables, and the format in which you received/collected
+ the data.
+\end_layout
+
+\begin_layout Enumerate
+Summary descriptive statistics of the data.
+ For quantitative variables, address the center, spread, shape, and unusual
+ features of the data distribution.
+ Graphical displays include boxplots, histograms, scatterplots, 
+\emph on
+etc
+\emph default
+.
+ Identify outliers.
+ For categorical data, summary frequency distributions and bar charts or
+ dotplots are appropriate.
+\end_layout
+
+\begin_layout Enumerate
+A discussion of the model fitting, or the other major purpose of your project.
+ List all assumptions being made.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Diagnostic checks of your fitted model.
+ Does the model fit well? Are the assumptions satisfied? Employ remedial
+ measures if necessary, and repeat.
+\end_layout
+
+\begin_layout Enumerate
+A practical application of your fitted model or procedure, something useful,
+ the main goal of your project.
+ Assess the adequacy of your model with a measure of model performance.
+\end_layout
+
+\begin_layout Standard
+Do not spare any details for the reader in this section.
+ If (s)he has a question about a statement made elsewhere in the paper,
+ (s)he will come here to sift through the results for an answer.
+ If the answer is not buried here, then the validity of your paper will
+ be compromised.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename examplefig.eps
+	width 4in
+	height 4in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+Scatterplot of 
+\family typewriter
+after
+\family default
+ vs.
+ 
+\family typewriter
+before
+\family default
+ by smoking status
+\begin_inset LatexCommand label
+name "fig:Scatterplot-of-after"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Graphs and Displays 
+\end_layout
+
+\begin_layout Standard
+The Analysis section will likely have many graphs and displays.
+ Here are some general considerations to keep in mind:
+\end_layout
+
+\begin_layout Itemize
+Every graph should be labeled 
+\begin_inset Quotes eld
+\end_inset
+
+Figure
+\begin_inset Quotes erd
+\end_inset
+
+, with a respective figure number, and an accompanying descriptive title.
+ If you are using LyX to typeset your document, then every figure should
+ be enclosed in a 
+\begin_inset Quotes eld
+\end_inset
+
+Figure float
+\begin_inset Quotes erd
+\end_inset
+
+, in which case these labels will be generated automatically.
+\end_layout
+
+\begin_layout Itemize
+Every graph or display should be referenced in the main body of the text,
+ and should have 
+\series bold
+\emph on
+at least a paragraph
+\series default
+\emph default
+ describing what the figure is and the figure's salient features.
+ If you can't come up with 
+\emph on
+even a
+\emph default
+ 
+\emph on
+paragraph
+\emph default
+ of important things to say about the picture, then the picture is not worth
+ including in the project report.
+\end_layout
+
+\begin_layout Itemize
+Every graph should be 
+\series bold
+a maximum
+\series default
+ of 
+\begin_inset Formula $1/2$
+\end_inset
+
+ page in size, except in very rare circumstances.
+\begin_inset Foot
+status open
+
+\begin_layout Standard
+Some graphs are simply too big to fit in 
+\begin_inset Formula $1/2$
+\end_inset
+
+ page and still be legible without a magnifying glass.
+ As of 2008, I have only encountered two graphs in graduate projects which
+ I have supervised that merited their own page.
+\end_layout
+
+\end_inset
+
+ In addition, try to avoid putting two (2) graphs on one (1) page; rather,
+ put the graphs on two separate pages and include a description underneath
+ of each one.
+ See the previous bullet.
+\end_layout
+
+\begin_layout Standard
+An example of a properly labeled graph is included as Figure 
+\begin_inset LatexCommand ref
+reference "fig:Scatterplot-of-after"
+
+\end_inset
+
+ (but the paragraph is missing).
+\end_layout
+
+\begin_layout Subsection
+Tables
+\end_layout
+
+\begin_layout Standard
+DO NOT COPY/PASTE TABLES FROM SPSS
+\begin_inset Formula $\circledR$
+\end_inset
+
+.
+ The tables returned by most software packages are overly complicated and
+ are full of irrelevant information.
+ If you have a generated table that you would like to include, take a close
+ look at it and identify the essential information that you need to convey
+ your point.
+ Next, retype (or export) that information in a table, properly referenced,
+ in the main body of the document.
+ An example of a good table is included below as Table 
+\begin_inset LatexCommand ref
+reference "tab:Tabular-results-of"
+
+\end_inset
+
+.
+ Note that it has been enclosed in a 
+\emph on
+table float
+\emph default
+, which is analogous to a figure float.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features>
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\series bold
+Gender
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Female
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Male
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\series bold
+Total
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\series bold
+Ethnicity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Caucasian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+African American
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+31
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+38
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Asian/Pacific Islander
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Hispanic
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+17
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+Other
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\series bold
+Total
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+74
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+90
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+Tabular results of Ethnicity versus Gender
+\begin_inset LatexCommand label
+name "tab:Tabular-results-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Note that there has been a deliberate attempt to use dividing lines sparingly
+ in the table.
+ Try not to put too many lines; they end up making your table more difficult
+ to read.
+ 
+\end_layout
+
+\begin_layout Standard
+The previous remarks made about figures also apply to tables.
+\end_layout
+
+\begin_layout Itemize
+Every table should be labeled and numbered, with a descriptive title.
+ 
+\end_layout
+
+\begin_layout Itemize
+Every table should be referenced in the main body of the text with a correspondi
+ng descriptive paragraph, at least.
+\end_layout
+
+\begin_layout Itemize
+Avoid especially large tables, if possible.
+ Some tables may be safely relocated to the Appendix.
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Section
+Discussion
+\begin_inset LatexCommand label
+name "sec:Discussion"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Section 
+\begin_inset LatexCommand ref
+reference "sec:Analysis"
+
+\end_inset
+
+ you included many tables, graphs, displays, and calculations.
+ In the Discussion section, the goal is to 
+\emph on
+make sense
+\emph default
+ of the results presented in the Analysis.
+ Take a step back from the details and try to address: 
+\begin_inset Quotes eld
+\end_inset
+
+What are the data telling us?
+\begin_inset Quotes erd
+\end_inset
+
+ Try to put the results in context, and discuss the implications of the
+ results that you found.
+\end_layout
+
+\begin_layout Standard
+It is appropriate in this section to admit problems that you faced with
+ the data, and limitations to your study.
+ If the data do not support your original hypothesis, then say so.
+ It is better to admit weaknesses of your study up front, rather than try
+ to conceal them and hope that no one notices, or even worse, to ignore
+ the weaknesses entirely.
+ Spending time thinking critically and reflectively about the results will
+ strengthen the project overall.
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Section
+Conclusion
+\begin_inset LatexCommand label
+name "sec:Conclusion"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is it! The Conclusion section is the end of the road, the location
+ to which all other sections are pointed.
+ Think of this section as an expanded and less concise version of your ABSTRACT.
+ The reader should be able to read the Conclusion and have a complete picture
+ of the main questions which led you to this project, and the answers that
+ you found.
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+addcontentsline{toc}{section}{References}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset LatexCommand bibitem
+key "efron79"
+
+\end_inset
+
+Efron, B.
+ (1979).
+ “Bootstrap Methods: Another Look at the Jackknife.” 
+\emph on
+Annals of Statistics
+\emph default
+ 
+\series bold
+7
+\series default
+:1—26.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset LatexCommand bibitem
+key "fox02"
+
+\end_inset
+
+Fox, J.
+ (2002).
+ 
+\emph on
+Appendix to An R and S-PLUS Companion to Applied Regression
+\emph default
+.
+ 
+\begin_inset LatexCommand url
+target "http://cran.r-project.org/doc/contrib/Fox-Companion/appendix-bootstrapping.pdf"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset LatexCommand bibitem
+key "key-10"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset LatexCommand bibitem
+key "key-11"
+
+\end_inset
+
+
+\series bold
+THE FORMAT OF THE REFERENCES MUST BE CONSISTENT
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset LatexCommand bibitem
+key "key-12"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset LatexCommand bibitem
+key "key-13"
+
+\end_inset
+
+
+\series bold
+DO NOT COPY/PASTE REFERENCES FROM THE INTERNET
+\series default
+.
+ They will almost surely be in a different format.
+ Take thirty seconds and translate the reference into a format consistent
+ with the ones above.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset LatexCommand bibitem
+key "key-14"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset LatexCommand bibitem
+key "key-15"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset LatexCommand bibitem
+key "key-16"
+
+\end_inset
+
+
+\newpage
+
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+Supporting Documentation
+\end_layout
+
+\begin_layout Standard
+Every project is unique.
+ However, in nearly every project there is additional information which
+ supplements the discussion in the main narrative but whose inclusion would
+ clutter the paper needlessly.
+ Place this extra material here.
+ It could include additional graphs, lengthy tables, background mathematical
+ theory, 
+\emph on
+etc
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\newpage
+
+\end_layout
+
+\begin_layout Section
+Complete 
+\family sans
+R
+\family default
+ and SAS
+\begin_inset Formula $\circledR$
+\end_inset
+
+ Scripts
+\end_layout
+
+\begin_layout Standard
+You should collect all of the computer code that you used at any point in
+ your project and post it in this section.
+ There will certainly need to be some cleanup of the code to make it legible
+ to the reader, but do not delete too much.
+ The reader should be able to take the code from your project and repeat
+ the analysis, verbatim.
+ It is a good idea to make a final test-run of the code in this section
+ to make sure that there aren't any crucial steps missing.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Remember:
+\series default
+ all computer code/listings should be in a monowidth font (such as Courier)
+ and not in a proportional font (such as Times Roman).
+ For instance, you should write 
+\family typewriter
+summary()
+\family default
+ instead of summary().
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+About this document: (this section is typeset in the 
+\family typewriter
+verse
+\family default
+ environment)
+\end_layout
+
+\begin_layout Verse
+
+\emph on
+Last modified
+\emph default
+: August 18, 2008
+\newline
+
+\emph on
+Author
+\emph default
+: G.
+ Jay Kerns, Ph.D.
+\newline
+
+\emph on
+Typeset with
+\emph default
+: LyX Version 1.5.5
+\newline
+Electronic versions in (
+\family typewriter
+.lyx
+\family default
+, 
+\family typewriter
+.tex
+\family default
+, 
+\family typewriter
+.pdf
+\family default
+) formats can be downloaded from:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset LatexCommand htmlurl
+target "http://www.cc.ysu.edu/~gjkerns/gradresources.php"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
