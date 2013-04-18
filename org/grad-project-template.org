@@ -1,9 +1,31 @@
+#    Copyright (C) 2013 G. Jay Kerns
+#
+#    Permission is granted to copy, distribute and/or modify this document
+#    under the terms of the GNU Free Documentation License, Version 1.3
+#    or any later version published by the Free Software Foundation;
+#    with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+#    A copy of the license is contained in the LICENSE file in this 
+#    directory.
+
 #+TITLE:  Project/Thesis Template for Graduate Students
 #+AUTHOR: G. Jay Kerns, PhD
 #+DATE:   Spring 2013
 #+OPTIONS: toc:nil
 #+LaTeX_HEADER: \usepackage[letterpaper, margin=1in]{geometry}
 #+LATEX_HEADER: \renewcommand{\maketitle}{}
+#+OPTIONS: tex:t
+#+ODT_STYLES_FILE: "/usr/share/emacs/24.3/etc/org/OrgOdtStyles.xml"
+
+#+BEGIN_LaTeX
+%    Copyright (C) 2013 G. Jay Kerns
+%
+%    Permission is granted to copy, distribute and/or modify this document
+%    under the terms of the GNU Free Documentation License, Version 1.3
+%    or any later version published by the Free Software Foundation;
+%    with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+%    A copy of the license is contained in the LICENSE file in this 
+%    directory.
+#+END_LaTeX
 
 #+NAME: Titlepage
 #+BEGIN_LaTeX
@@ -93,8 +115,9 @@ are used throughout the paper.
 
 Most of your literature review will be mentioned here. Every time that
 you reference a paper, be sure to add a citation, for instance, Efron
-[efron79]. In order to cite properly, your References section needs to
-be current and complete; see the end of this document.
+\cite{Efron1972}. In order to cite properly, your References section
+needs to be current, consistent, and complete; see \cite{Cons} and
+\cite{NoCopy} at the end of this document.
 
 \newpage
 * Overview
@@ -260,17 +283,17 @@ mathematics and text.
 
 This document is yours, and the reader will assume that all of the
 words in it were written by you unless something special indicates
-otherwise. Take, for instance, this quote from Fox [fox02] which
-discusses the bootstrapping technique:
+otherwise. Take, for instance, this quote from Fox \cite{Fox2002}
+which discusses the bootstrapping technique:
 
 #+BEGIN_QUOTE
 Bootstrapping is a general approach to statistical inference based on
 building a sampling distribution for a statistic by resampling from
-the data at hand. The term ‘bootstrapping,’ due to Efron [efron79], is
-an allusion to the expression `pulling oneself up by one’s bootstraps'
-– in this case, using the sample data as a population from which
-repeated samples are drawn. At first blush, the approach seems
-circular, but has been shown to be sound.
+the data at hand. The term "bootstrapping," due to Efron
+\cite{Efron1972}, is an allusion to the expression "pulling oneself up
+by one’s bootstraps" -- in this case, using the sample data as a
+population from which repeated samples are drawn. At first blush, the
+approach seems circular, but has been shown to be sound.
 #+END_QUOTE
 
 Notice that the above quotation environment makes it immediately
@@ -331,8 +354,7 @@ not buried here, then the validity of your paper will be compromised.
 #+CAPTION[A scatterplot]: \small Scatterplot of =after= vs. =before= by smoking status. 
 #+ATTR_LaTeX: :width 0.90\textwidth :placement [ht]
 #+RESULTS: fig-scatterplot
-[[file:examplefig.pdf]]
-
+[[file:examplefig.png]]
 ** Graphs and Displays 
 
 The Analysis section will likely have many graphs and displays. 
@@ -426,31 +448,12 @@ reader should be able to read the Conclusion and have a complete
 picture of the main questions which led you to this project, and the
 answers that you found.
 
+#+BEGIN_LaTeX
 \newpage
-* References
+\appendix
+#+END_LaTeX
 
-[1] Efron, B. (1979). /Bootstrap Methods: Another Look at the Jackknife./ Annals of Statistics *7*:1—26.
-
-[2] Fox, J. (2002). _Appendix to An R and S-PLUS Companion to Applied Regression_. http://cran.r-project.org/doc/contrib/Fox-Companion/appendix-bootstrapping.pdf
-
-[3] 
-
-[4] THE FORMAT OF THE REFERENCES MUST BE CONSISTENT. 
-
-[5] 
-
-[6] DO NOT COPY/PASTE REFERENCES FROM THE INTERNET. They will almost
-surely be in a different format. Take thirty seconds and translate the
-reference into a format consistent with the ones above.
-
-[7] 
-
-[8] 
-
-[9] 
-
-
-** Supporting Documentation
+* Supporting Documentation
 
 Every project is unique. However, in nearly every project there is
 additional information which supplements the discussion in the main
@@ -459,7 +462,7 @@ needlessly. Place this extra material here. It could include
 additional graphs, lengthy tables, background mathematical theory,
 etc.
 
-** Complete R and SAS\(\circledR\) Scripts
+* Complete R and SAS\(\circledR\) Scripts
 
 You should collect all of the computer code that you used at any point
 in your project and post it in this section. There will certainly need
@@ -471,17 +474,25 @@ there aren't any crucial steps missing.
 
 Remember: all computer code/listings should be in a monowidth font
 (such as Courier) and not in a proportional font (such as Times
-Roman). For instance, you should write =summary()= instead of summary().
+Roman). For instance, you should write =summary()= instead of
+summary().
+
+\bigskip
 
 *About this document:* (the below was typeset in the =verse=
-  environment)
+environment)
 
 #+BEGIN_VERSE
-Last modified: August 18, 2008
+Last modified: April 17, 2013
 Author: G. Jay Kerns, Ph.D.
-Typeset with: Org mode 8.0pre in GNU Emacs 24.3.5.1
+Typeset with: Org mode =8.0pre= in GNU Emacs =24.3.5.1=
 Electronic versions in (=.lyx=, =.tex=, =.pdf=) formats can be 
 downloaded from [[https://github.com/gjkerns/gradproject][GitHub]]
 #+END_VERSE
 
-
+#+BEGIN_LaTeX
+\phantomsection
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plainurl}
+\bibliography{gradproject}
+#+END_LaTeX
