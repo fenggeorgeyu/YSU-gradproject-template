@@ -30,6 +30,7 @@
 #+NAME: Titlepage
 #+BEGIN_LaTeX
 \newpage
+\thispagestyle{empty}
 \begin{center}
 \textbf{TITLE OF THE PROJECT (all caps)} 
 
@@ -73,6 +74,8 @@ May, 2013
 #+NAME: Abstract
 #+BEGIN_LaTeX
 \newpage
+\pagenumbering{roman}
+\setcounter{page}{2}
 \begin{center}
 \textbf{ABSTRACT} 
 \end{center} \vspace{0.25in}
@@ -105,6 +108,7 @@ and committee members.
 
 \newpage
 * Introduction
+#+LaTeX: \pagenumbering{arabic}
 
 The goal in this section is to introduce the reader to the subject of
 your project. This is the place for relevant background information
@@ -244,15 +248,15 @@ topic you are studying.
 Given that you are a student in the Department of Mathematics &
 Statistics, the probability is high that you will want to include
 mathematical notation and formulas in your report, and they are
-entered into LyX using a special LaTeX math mode. There are three
-primary ways to do this.
+entered using a special LaTeX math mode. There are three primary ways
+to do this.
 
-The first way is called an “inline formula”, which means that the
+The first way is called an "inline formula", which means that the
 formula is included in the text with everything else. An example would
 be \(f(x)\) or \( \int\sin x\ \mathrm{d}x \). This way is handy when
 mentioning variables or short expressions.
 
-The second way is called a “displayed formula”, which is separated
+The second way is called a "displayed formula", which is separated
 from the rest of the text in its own displayed paragraph. An example
 would be
 \[
@@ -270,8 +274,9 @@ labeled with a number, for instance,
 There can be many of these in a the document, and the equation numbers
 will be generated automatically by LyX.
 
-Please note that there are many, many, many things that can be 
-done with LaTeX and mathematics. To get an idea, take a look at "LyX's detailed Math Manual", which can be viewed by clicking \(Help \rightarrow Math\). 
+Please note that there are many, many, many things that can be done
+with LaTeX and mathematics. Do a Google search for "latex math
+examples" for a taste.
 
 In particular, all variables, functions, and expressions in the
 document should be written in math mode. It is not acceptable to write
@@ -354,7 +359,7 @@ not buried here, then the validity of your paper will be compromised.
 #+CAPTION[A scatterplot]: \small Scatterplot of =after= vs. =before= by smoking status. 
 #+ATTR_LaTeX: :width 0.90\textwidth :placement [ht]
 #+RESULTS: fig-scatterplot
-[[file:examplefig.png]]
+[[file:examplefig.pdf]]
 ** Graphs and Displays 
 
 The Analysis section will likely have many graphs and displays. 
@@ -486,8 +491,8 @@ environment)
 Last modified: April 17, 2013
 Author: G. Jay Kerns, Ph.D.
 Typeset with: Org mode =8.0pre= in GNU Emacs =24.3.5.1=
-Electronic versions in (=.lyx=, =.tex=, =.pdf=) formats can be 
-downloaded from [[https://github.com/gjkerns/gradproject][GitHub]]
+Electronic versions in (=.org=, =.lyx,=, .tex=, =.pdf=) 
+formats can be downloaded from [[https://github.com/gjkerns/gradproject][GitHub]]
 #+END_VERSE
 
 #+BEGIN_LaTeX
