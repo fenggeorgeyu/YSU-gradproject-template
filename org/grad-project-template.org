@@ -1,11 +1,12 @@
-#    Copyright (C) 2013 G. Jay Kerns
+# Copyright (C) 2013 G. Jay Kerns
 #
-#    Permission is granted to copy, distribute and/or modify this document
-#    under the terms of the GNU Free Documentation License, Version 1.3
-#    or any later version published by the Free Software Foundation;
-#    with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
-#    A copy of the license is contained in the LICENSE file in this 
-#    directory.
+# Permission is granted to copy, distribute and/or modify this
+# document under the terms of the GNU Free Documentation License,
+# Version 1.3 or any later version published by the Free Software
+# Foundation; with no Invariant Sections, no Front-Cover Texts, and no
+# Back-Cover Texts. You should have received a copy of the GNU Free
+# Documentation License along with this document; if not, you can
+# obtain one from <http://www.gnu.org/copyleft/fdl.html>.
 
 #+TITLE:  Project/Thesis Template for Graduate Students
 #+AUTHOR: G. Jay Kerns, PhD
@@ -13,18 +14,18 @@
 #+OPTIONS: toc:nil
 #+LaTeX_HEADER: \usepackage[letterpaper, margin=1in]{geometry}
 #+LATEX_HEADER: \renewcommand{\maketitle}{}
-#+OPTIONS: tex:t
-#+ODT_STYLES_FILE: "/usr/share/emacs/24.3/etc/org/OrgOdtStyles.xml"
+#+STARTUP: collapse
 
 #+BEGIN_LaTeX
-%    Copyright (C) 2013 G. Jay Kerns
+% Copyright (C) 2013 G. Jay Kerns
 %
-%    Permission is granted to copy, distribute and/or modify this document
-%    under the terms of the GNU Free Documentation License, Version 1.3
-%    or any later version published by the Free Software Foundation;
-%    with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
-%    A copy of the license is contained in the LICENSE file in this 
-%    directory.
+% Permission is granted to copy, distribute and/or modify this
+% document under the terms of the GNU Free Documentation License,
+% Version 1.3 or any later version published by the Free Software
+% Foundation; with no Invariant Sections, no Front-Cover Texts, and no
+% Back-Cover Texts. You should have received a copy of the GNU Free
+% Documentation License along with this document; if not, you can
+% obtain one from <http://www.gnu.org/copyleft/fdl.html>.
 #+END_LaTeX
 
 #+NAME: Titlepage
@@ -456,8 +457,13 @@ answers that you found.
 #+BEGIN_LaTeX
 \newpage
 \appendix
+\phantomsection
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plainurl}
+\bibliography{gradproject}
 #+END_LaTeX
 
+\newpage
 * Supporting Documentation
 
 Every project is unique. However, in nearly every project there is
@@ -467,6 +473,7 @@ needlessly. Place this extra material here. It could include
 additional graphs, lengthy tables, background mathematical theory,
 etc.
 
+\newpage
 * Complete R and SAS\(\circledR\) Scripts
 
 You should collect all of the computer code that you used at any point
@@ -488,16 +495,9 @@ summary().
 environment)
 
 #+BEGIN_VERSE
-Last modified: April 17, 2013
+Last modified: April 18, 2013
 Author: G. Jay Kerns, Ph.D.
-Typeset with: Org mode =8.0pre= in GNU Emacs =24.3.5.1=
+Typeset with: Org mode =8.0= in GNU Emacs =24.3.1=
 Electronic versions in (=.org=, =.lyx,=, .tex=, =.pdf=) 
 formats can be downloaded from [[https://github.com/gjkerns/gradproject][GitHub]]
 #+END_VERSE
-
-#+BEGIN_LaTeX
-\phantomsection
-\addcontentsline{toc}{section}{References}
-\bibliographystyle{plainurl}
-\bibliography{gradproject}
-#+END_LaTeX
