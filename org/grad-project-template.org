@@ -12,8 +12,9 @@
 #+AUTHOR: G. Jay Kerns, PhD
 #+DATE:   Spring 2013
 #+OPTIONS: toc:nil
-#+LaTeX_HEADER: \usepackage[letterpaper, margin=1in]{geometry}
+#+LaTeX_HEADER: \usepackage[letterpaper, top=1in, bottom=1in, left=1.5in, right=1in]{geometry}
 #+LATEX_HEADER: \renewcommand{\maketitle}{}
+#+LATEX_HEADER: \usepackage{setspace}
 #+STARTUP: collapse
 
 #+BEGIN_LaTeX
@@ -72,11 +73,28 @@ May, 2013
 \end{center}
 #+END_LaTeX
 
+#+NAME: Copyright
+#+BEGIN_LaTeX
+\newpage
+\thispagestyle{empty}
+\begin{center}
+\vspace*{3in}
+\copyright \\
+\vspace{0.25in}
+Given M.~Surname \\
+\vspace{0.25in}
+2013 \\
+\end{center}
+
+\vfill
+#+END_LaTeX
+
 #+NAME: Abstract
 #+BEGIN_LaTeX
 \newpage
 \pagenumbering{roman}
-\setcounter{page}{2}
+\setcounter{page}{3}
+\doublespacing
 \begin{center}
 \textbf{ABSTRACT} 
 \end{center} \vspace{0.25in}
@@ -104,10 +122,12 @@ Mathematics and Statistics, and of course, your project advisor
 and committee members.
 #+END_LaTeX
 
+#+BEGIN_LaTeX
 \newpage
 \tableofcontents
-
 \newpage
+#+END_LaTeX
+
 * Introduction
 #+LaTeX: \pagenumbering{arabic}
 
@@ -124,7 +144,7 @@ you reference a paper, be sure to add a citation, for instance, Efron
 needs to be current, consistent, and complete; see \cite{Cons} and
 \cite{NoCopy} at the end of this document.
 
-\newpage
+#+LaTeX: \newpage
 * Overview
 
 This section gives a bird's eye view of your project, as a whole.  You
@@ -223,7 +243,7 @@ your project.
                   that all of the procedures are followed in a timely
                   manner.
 
-\newpage
+#+LaTeX: \newpage
 * Methodology
 
 The goal in this section is to lay the theoretical foundation of the
@@ -325,7 +345,7 @@ is not necessary to quote/reference a definition, unless the specific
 definition warrants otherwise. Ask your adviser concerning any cases
 about which you are unsure.
 
-\newpage
+#+LaTeX: \newpage
 * Analysis
 
 This section is the "meat" of the project. It is here that you present
@@ -426,7 +446,7 @@ The previous remarks made about figures also apply to tables.
 - Avoid especially large tables, if possible. Some tables may be
   safely relocated to the Appendix.
 
-\newpage
+#+LaTeX: \newpage
 * Discussion
 
 In Section [[Analysis]] you included many tables, graphs, displays,
@@ -444,7 +464,7 @@ hope that no one notices, or even worse, to ignore the weaknesses
 entirely. Spending time thinking critically and reflectively about the
 results will strengthen the project overall.
 
-\newpage
+#+LaTeX: \newpage
 * Conclusion
 
 This is it! The Conclusion section is the end of the road, the

@@ -1,4 +1,4 @@
-% Created 2013-04-18 Thu 13:15
+% Created 2013-04-18 Thu 20:08
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -16,8 +16,9 @@
 \usepackage{amstext}
 \usepackage{hyperref}
 \tolerance=1000
-\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage[letterpaper, top=1in, bottom=1in, left=1.5in, right=1in]{geometry}
 \renewcommand{\maketitle}{}
+\usepackage{setspace}
 \author{G. Jay Kerns, PhD}
 \date{Spring 2013}
 \title{Project/Thesis Template for Graduate Students}
@@ -81,8 +82,22 @@ May, 2013
 \end{center}
 
 \newpage
+\thispagestyle{empty}
+\begin{center}
+\vspace*{3in}
+\copyright \\
+\vspace{0.25in}
+Given M.~Surname \\
+\vspace{0.25in}
+2013 \\
+\end{center}
+
+\vfill
+
+\newpage
 \pagenumbering{roman}
-\setcounter{page}{2}
+\setcounter{page}{3}
+\doublespacing
 \begin{center}
 \textbf{ABSTRACT} 
 \end{center} \vspace{0.25in}
@@ -108,8 +123,8 @@ and committee members.
 
 \newpage
 \tableofcontents
-
 \newpage
+
 \section[Introduction]{Introduction}
 \label{sec-1}
 \pagenumbering{arabic}
