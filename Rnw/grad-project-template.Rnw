@@ -1,4 +1,4 @@
-% Copyright (C) 2013 G. Jay Kerns
+% Copyright (C) 2014 G. Jay Kerns
 %
 % Permission is granted to copy, distribute and/or modify this
 % document under the terms of the GNU Free Documentation License,
@@ -8,7 +8,7 @@
 % Documentation License along with this document; if not, you can
 % obtain one from <http://www.gnu.org/copyleft/fdl.html>.
 
-% Created 2013-04-18 Thu 20:08
+% Created 2014-01-17 Fri 0756
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -79,7 +79,7 @@ Department of Maybe Another Department\\
 
 \vfill
 YOUNGSTOWN STATE UNIVERSITY\\
-May, 2013 
+May, 2014 
 \end{center}
 
 \newpage
@@ -168,9 +168,9 @@ Sections \ref{sec-4}, \ref{sec-5}, and \ref{sec-6}.
 \label{sec-2-1}
 
 This is set apart so that you can see what a subsection looks like
-inside of a section. The list below is typeset with a Description
-environment. It describes a basic time-line for you while completing
-your project.
+inside of a section. The list below is typeset with a
+\emph{Description} environment. It describes a basic time-line for you
+to use while completing your project.
 
 \begin{description}
 \item[Beginning of semester or earlier:] Schedule meetings with
@@ -181,11 +181,12 @@ have had at YSU. Leave the meeting with two or three
 possibilities of projects for you to investigate. Be prepared to
 go to the library or Internet to find data related to the
 topic(s) discussed.
+
 \item[Second meeting:] Bring example data sets to the meeting, for
 discussion and selection. Choose a project adviser and project
 topic. Ask your adviser about potential professors to serve on
 your project committee, and then approach the candidates to ask
-them (politely) if they are willing/able to serve on the
+them (politely) if they are willing/able to serve on your 
 committee. Keep searching until you find two professors who
 accept.
 
@@ -193,15 +194,16 @@ accept.
 weekly meeting times with your adviser. Notify
 your adviser of the additional committee
 members. Schedule a tentative date for the
-computer lab for your project presentation and
+Cafaro Suite for your project presentation and
 defense.  This will be Presentation Day, and
 should be scheduled for at least one week prior to
 the beginning of Final Exams. After the meeting,
 speak with the other committee members to revise
 or confirm the presentation day.
+
 \item[Two weeks prior:] PROJECT REPORT DUE DATE. Give a final, printed
 copy of the document to each of your committee members. Begin
-preparation for your presentation by making PowerPoint slides of
+preparation for your presentation by making Beamer slides of
 your project work. Organize your presentation in the same way
 that this document is organized.
 
